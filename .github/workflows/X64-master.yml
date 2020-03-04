@@ -7,9 +7,10 @@
 #=================================================
 name: X64-Master
 
-#on:
-#  schedule:
-#    - cron: 0 20 * * *
+on: 
+  release:
+    types: [published]
+      
   push:
     branches: 
       - master
